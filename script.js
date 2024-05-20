@@ -9,6 +9,5 @@ setInterval(() => {
     if (index >= positions.length) {
         index = 0;
     }
-}, 200);
-
+}, 200);)
 
