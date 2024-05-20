@@ -21,6 +21,9 @@ const degradationInterval: number = 300;
 let chosenGif: number[] = [];
 let levelNr: number = 1;
 
+
+
+
 const imageElement: HTMLElement = document.getElementById("level-up") as HTMLElement;
 if ( currentWidthFood === 0){
     alert("game over")

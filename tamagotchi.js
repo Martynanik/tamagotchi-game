@@ -107,3 +107,6 @@ function levelUp() {
     levelNr += 1;
     level.innerHTML = "Level: " + levelNr;
 }
+
+
+

@@ -231,3 +231,13 @@ body{
 img{
     position: relative;
 }
+
+
+.sprite{
+    background-image: url("https://cdn.atomisystems.com/uploads/2021/03/Sprite-sheet-example.webp") ;
+    background-size: 300px;
+    height: 100px;
+    width: 100px;
+    background-position:0 0;
+
+}
