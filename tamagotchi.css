@@ -1,0 +1,233 @@
+.gifImage{
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.barGif{
+    height: 35px;
+    width: 35px;
+
+}
+
+.demoFont {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    color: rgba(76,71,156,1);
+    text-shadow: #FFFCA8 2px 2px 0px, #228be2 4px 4px 0px;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/premium-vector/seamless-background-with-blue-sky-white-cartoon-clouds-vector-illustration_515038-1945.jpg");
+}
+
+.mt-200{
+    margin-top: 100px;
+}
+
+.btn-start-game {
+    background: #2db35e;
+    background-image: -webkit-linear-gradient(top, #2db35e, #1aa127);
+    background-image: -moz-linear-gradient(top, #2db35e, #1aa127);
+    background-image: -ms-linear-gradient(top, #2db35e, #1aa127);
+    background-image: -o-linear-gradient(top, #2db35e, #1aa127);
+    background-image: linear-gradient(to bottom, #2db35e, #1aa127);
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #114712;
+    font-size: 27px;
+    padding: 10px;
+    text-decoration: none;
+    width: 250px;
+    cursor: pointer;
+}
+
+.btn-start-game:hover {
+    background: #37c418;
+    background-image: -webkit-linear-gradient(top, #37c418, #148f5a);
+    background-image: -moz-linear-gradient(top, #37c418, #148f5a);
+    background-image: -ms-linear-gradient(top, #37c418, #148f5a);
+    background-image: -o-linear-gradient(top, #37c418, #148f5a);
+    background-image: linear-gradient(to bottom, #37c418, #148f5a);
+    text-decoration: none;
+}
+
+.main-page{
+    display: none;
+}
+
+@keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(80%); }
+    100% { transform: translateX(0); }
+}
+
+.move {
+    animation: move 11s linear infinite;
+}
+
+.feed-btn {
+    word-spacing: -1px;
+    background: #4ce67f;
+    background-image: -webkit-linear-gradient(top, #4ce67f, #167043);
+    background-image: -moz-linear-gradient(top, #4ce67f, #167043);
+    background-image: -ms-linear-gradient(top, #4ce67f, #167043);
+    background-image: -o-linear-gradient(top, #4ce67f, #167043);
+    background-image: linear-gradient(to bottom, #4ce67f, #167043);
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    text-shadow: 3px 4px 5px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.feed-btn:hover {
+    background: #216e18;
+    background-image: -webkit-linear-gradient(top, #216e18, #39d934);
+    background-image: -moz-linear-gradient(top, #216e18, #39d934);
+    background-image: -ms-linear-gradient(top, #216e18, #39d934);
+    background-image: -o-linear-gradient(top, #216e18, #39d934);
+    background-image: linear-gradient(to bottom, #216e18, #39d934);
+    text-decoration: none;
+}
+
+.fun-btn {
+    word-spacing: -1px;
+    background: #4ce67f;
+    background-image: -webkit-linear-gradient(top, #4ce67f, #167043);
+    background-image: -moz-linear-gradient(top, #4ce67f, #167043);
+    background-image: -ms-linear-gradient(top, #4ce67f, #167043);
+    background-image: -o-linear-gradient(top, #4ce67f, #167043);
+    background-image: linear-gradient(to bottom, #4ce67f, #167043);
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    text-shadow: 3px 4px 5px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.fun-btn:hover {
+    background: #216e18;
+    background-image: -webkit-linear-gradient(top, #216e18, #39d934);
+    background-image: -moz-linear-gradient(top, #216e18, #39d934);
+    background-image: -ms-linear-gradient(top, #216e18, #39d934);
+    background-image: -o-linear-gradient(top, #216e18, #39d934);
+    background-image: linear-gradient(to bottom, #216e18, #39d934);
+    text-decoration: none;
+}
+
+.play-btn {
+    word-spacing: -1px;
+    background: #4ce67f;
+    background-image: -webkit-linear-gradient(top, #4ce67f, #167043);
+    background-image: -moz-linear-gradient(top, #4ce67f, #167043);
+    background-image: -ms-linear-gradient(top, #4ce67f, #167043);
+    background-image: -o-linear-gradient(top, #4ce67f, #167043);
+    background-image: linear-gradient(to bottom, #4ce67f, #167043);
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    text-shadow: 3px 4px 5px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.play-btn:hover {
+    background: #216e18;
+    background-image: -webkit-linear-gradient(top, #216e18, #39d934);
+    background-image: -moz-linear-gradient(top, #216e18, #39d934);
+    background-image: -ms-linear-gradient(top, #216e18, #39d934);
+    background-image: -o-linear-gradient(top, #216e18, #39d934);
+    background-image: linear-gradient(to bottom, #216e18, #39d934);
+    text-decoration: none;
+}
+
+
+
+#myProgress-food {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+#myBar-food {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#myProgress-play {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+#myBar-play {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+#myProgress-fun {
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+#myBar-fun {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+#level-up-img{
+    position: absolute;
+}
+
+img{
+    position: relative;
+}
